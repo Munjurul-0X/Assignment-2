@@ -1,191 +1,254 @@
-.open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  background-color: rgb(245, 248, 255);
-}
+ * {
+   font-family: Noto Serif;
+ }
 
-/** Share Styles  **/
+ .open-sans {
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-variation-settings:
+     "wdth" 100;
+   background-color: rgb(245, 248, 255);
+ }
 
-span {
-  color: #E95A08;
+ /** Share Styles  **/
 
-}
+ span {
+   color: #E95A08;
 
+ }
 
-/** Nav Section Styles **/
-
-.nav-items {
-  max-width: 85%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.nav-link {
-  display: flex;
-  gap: 35px;
-  text-align: center;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.nav-items img {
-  max-width: 100%;
-  max-height: 100%;
-  text-align: center;
-  align-items: center;
-}
-
-.nav-link i {
-  margin-right: 10px;
-}
-
-.home-link {
-  color: black;
-  font-weight: 700;
-}
-
-.Shop-about {
-  color: #8987A1;
-}
-
-/** Hero Section Styles **/
-
-.hero-section {
-  display: flex;
-  max-width: 87%;
-  margin: 0 auto;
-  margin-top: 120px;
-  justify-content: space-between;
-  align-items: end;
-}
-
-.hero-text p {
-  font-size: 22x;
+ .btn {
+   background-color: #E95A08;
+   padding-right: 70px;
+   padding-left: 70px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: white;
+   cursor: pointer;
+ }
 
 
-}
+ /** Nav Section Styles **/
 
-.hero-photo img {
-  max-width: 100%;
-  max-height: 100%;
-}
+ .nav-items {
+   max-width: 85%;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   margin-top: 20px;
+ }
 
-/** Plants Section Styles **/
+ .nav-link {
+   display: flex;
+   gap: 35px;
+   text-align: center;
+   align-items: center;
+   margin-top: 30px;
+ }
 
-.Plants-section {
-  max-width: 85%;
-  margin: 0 auto;
-  margin-top: 120px;
-}
+ .nav-items img {
+   max-width: 100%;
+   max-height: 100%;
+   text-align: center;
+   align-items: center;
+ }
 
-.Plant-text p {
-  margin: 0 auto;
-  margin-top: 20px;
-  color: #000000;
-  margin-bottom: 60px;
-}
+ .nav-link i {
+   margin-right: 10px;
+ }
 
-.card-1 img {
-  max-width: 90%;
-  max-height: 90%;
-  display: flex;
-  justify-content: center;
-  margin-left: 15px;
-}
+ .home-link {
+   color: black;
+   font-weight: 700;
+ }
 
-.price {
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 20px;
-}
+ .Shop-about {
+   color: #8987A1;
+ }
 
-.Plant-title {
-  font-size: 20px;
-  font-weight: 400;
-  color: black;
-  text-align: center;
-  margin-top: 20px;
-}
+ /** Hero Section Styles **/
 
-.card-1 {
-  max-width: 270px;
-}
+ .hero-section {
+   display: flex;
+   max-width: 87%;
+   margin: 0 auto;
+   margin-top: 120px;
+   justify-content: space-between;
+   align-items: end;
+ }
 
-.btn {
-  background-color: #E95A08;
-  padding-right: 70px;
-  padding-left: 70px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
+ .hero-text p {
+   font-size: 22x;
+   cursor: default;
 
-.Plants-card {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  row-gap: 25px;
-  column-gap: 0px;
-  text-align: center;
-  align-items: center;
-}
+ }
 
-/* plants lover section */
+ .hero-photo img {
+   max-width: 100%;
+   max-height: 100%;
+ }
 
-.plants-lover-section {
-  max-width: 85%;
-  margin: 0 auto;
-  display: flex;
-  margin-top: 200px;
-  margin-left: 200px;
-  position: relative;
-}
+ /** Plants Section Styles **/
 
-.plants-lover-section h1 {
-  font-size: 50px;
-  font-weight: bold;
-  max-width: 450px;
-}
+ .Plants-section {
+   max-width: 85%;
+   margin: 0 auto;
+   margin-top: 120px;
+ }
 
-.plants-lover-section ul li {
-  list-style: inside;
-  font-weight: 400;
+ .Plant-text p {
+   margin: 0 auto;
+   margin-top: 20px;
+   color: #000000;
+   margin-bottom: 60px;
+   cursor: default;
+ }
+
+ .card-1 img {
+   max-width: 90%;
+   max-height: 90%;
+   display: flex;
+   justify-content: center;
+   margin-left: 15px;
+ }
+
+ .price {
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 20px;
+   cursor: default;
+ }
+
+ .Plant-title {
+   font-size: 20px;
+   font-weight: 400;
+   color: black;
+   text-align: center;
+   margin-top: 20px;
+   cursor: default;
+   font-family: Noto Serif;
+ }
+
+ .card-1 {
+   max-width: 270px;
+ }
 
 
+ .Plants-card {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   row-gap: 25px;
+   column-gap: 0px;
+   text-align: center;
+   align-items: center;
+ }
 
-}
+ /* plants lover section */
 
-.plants-lover-section img {
-  max-width: 100%;
-  max-height: 90%;
-  display: flex;
-}
+ .plants-lover-section {
+   max-width: 85%;
+   margin: 0 auto;
+   display: flex;
+   margin-top: 200px;
+   margin-left: 200px;
+   position: relative;
+ }
 
-.inter {
-  max-width: 480px;
-}
+ .plants-lover-section h1 {
+   font-size: 50px;
+   font-weight: bold;
+   max-width: 450px;
+   cursor: default;
+ }
 
-.text-style {
-  color: black;
-  text-align: left;
-  padding-left: 20px;
+ .plants-lover-section ul li {
+   list-style: inside;
+   font-weight: 400;
+   cursor: default;
 
-}
 
-.plants-lover-text {
-  max-width: 540px;
-  margin-top: 40px;
-}
+ }
 
-#badge-photo {
-  max-width: 230px;
-  position: absolute;
-  left: 340px;
-  bottom: 460px;
-}
+ .plants-lover-section img {
+   max-width: 100%;
+   max-height: 90%;
+   display: flex;
+ }
 
-/* join section */
+ .inter {
+   max-width: 480px;
+ }
+
+ .text-style {
+   color: black;
+   text-align: left;
+   padding-left: 20px;
+
+ }
+
+ .plants-lover-text {
+   max-width: 540px;
+   margin-top: 40px;
+ }
+
+ #badge-photo {
+   max-width: 230px;
+   position: absolute;
+   left: 340px;
+   bottom: 460px;
+ }
+
+ /* join section */
+
+ .join-title {
+   font-size: 3rem;
+   font-weight: bold;
+   color: white;
+   cursor: default;
+   margin-bottom: 25px;
+   margin-left: 150px;
+   font-family: Noto Serif;
+
+ }
+
+ .join-btn {
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 11px;
+   padding-bottom: 11px;
+   cursor: pointer;
+   position: absolute;
+
+
+ }
+
+ .join-input {
+   padding: 10px 440px 10px 20px;
+   position: relative;
+   background-color: white;
+   color: rgb(0, 0, 0);
+   align-items: center;
+
+ }
+
+ .join-section {
+   max-width: 1440px;
+   max-height: 533px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   background-image: url(/assets/news-letter-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 180px;
+   padding-right: 230px;
+   margin: 0 auto;
+
+ }
+
+ .join-items {
+   max-width: 850px;
+   margin-right: 150px;
+ }
