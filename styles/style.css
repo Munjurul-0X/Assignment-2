@@ -252,3 +252,45 @@
    max-width: 850px;
    margin-right: 150px;
  }
+
+ /* footer section */
+ .section-footer {
+   display: flex;
+   justify-content: space-around;
+   padding: 30px;
+ }
+
+ .logo-img-footer {
+   max-width: 359px;
+ }
+
+ .logo-img-footer p {
+   margin-top: 2px;
+ }
+
+ .footer-link {
+   max-width: 84px;
+   max-height: 248px;
+
+ }
+
+ .footer-logo {
+   max-width: 216px;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 30px;
+
+ }
+
+
+ .section-footer div {
+   display: grid;
+ }
+
+ .link-a {
+   margin-bottom: 30px;
+ }
+
+ #footer-text {
+   font-size: 21px;
+ }
