@@ -251,7 +251,7 @@
    justify-content: center;
    text-align: center;
    align-items: center;
-   background-image: url(/assets/news-letter-bg.png);
+   background-image: url(//assets/news-letter-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
    padding: 180px;
@@ -376,7 +376,7 @@
  }
 
  .photo-1 {
-   background-image: url(/assets/deal-bloom.png);
+   background-image: url(//assets/deal-bloom.png);
    background-repeat: no-repeat;
    background-size: cover;
    max-width: 367px;
@@ -387,7 +387,7 @@
  }
 
  .photo-2 {
-   background-image: url(/assets/deal-ana.png);
+   background-image: url(//assets/deal-ana.png);
    background-repeat: no-repeat;
    background-size: cover;
    max-width: 367px;
@@ -397,7 +397,7 @@
  }
 
  .photo-3 {
-   background-image: url(/assets/deal-zabo.png);
+   background-image: url(//assets/deal-zabo.png);
    background-repeat: no-repeat;
    background-size: cover;
    max-width: 753px;
