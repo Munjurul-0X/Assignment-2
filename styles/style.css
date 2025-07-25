@@ -1,6 +1,16 @@
+ @import "tailwindcss";
+
  * {
    font-family: Noto Serif;
  }
+
+ /* ............. */
+
+ .none {
+   display: none;
+ }
+
+ /* ............. */
 
 
  .open-sans {
@@ -255,6 +265,9 @@
    margin-right: 150px;
  }
 
+
+
+
  /* footer section */
  .section-footer {
    display: flex;
@@ -400,3 +413,229 @@
  }
 
  /* ------------------- RESPONSIVE DESIGN ------------------- */
+
+ @media screen and (max-width:576px) {
+
+   /* nav section */
+   .nav-section {
+     max-width: 100%;
+     max-width: 100%;
+     margin: auto;
+
+     text-align: center;
+     align-items: center;
+
+     text-align: center;
+     align-items: center;
+   }
+
+   /* hero section */
+   .hero-section {
+     display: flex;
+     flex-direction: column-reverse;
+     max-width: 100%;
+     margin: auto;
+   }
+
+   .hero-section h2 {
+     font-size: xx-large;
+     margin-top: 50px;
+   }
+
+   .hero-section h3 {
+     font-size: xx-large;
+     margin-top: 8px;
+   }
+
+   .hero-photo {
+     max-width: 85%;
+   }
+
+   /* Our Plants section */
+   section.hero-section {
+     display: flex;
+     flex-direction: column-reverse;
+   }
+
+   .Plants-section h2 {
+     font-size: 28px;
+     font-weight: bold;
+   }
+
+   .Plants-card {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 6px;
+     margin: 0;
+     padding: 0px;
+     width: 100%;
+   }
+
+   .btn {
+     background-color: #E95A08;
+     margin-bottom: 15px;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 8px;
+     font-size: 16px;
+     font-weight: 600;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+   }
+
+   .btn:hover {
+     background-color: #cc4b05;
+     transform: scale(1.05);
+     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+   }
+
+   /**plants-lover-section **/
+   .plants-lover-section {
+     display: flex;
+     flex-direction: column;
+     max-width: 85%;
+     margin: auto;
+     margin-top: 4rem;
+   }
+
+   .plants-lover-text h1 {
+     font-size: xx-large;
+     font-weight: bold;
+     margin-bottom: 20px;
+   }
+
+   .plants-lover-text li {
+     font-size: 14px;
+     color: #7c7171;
+   }
+
+   .plants-lover-text span {
+     color: #6d5f5f;
+   }
+
+   /**latest-section **/
+
+   .latest-section h2 {
+     font-size: xx-large;
+     font-weight: bold;
+   }
+
+   .latest-section p {
+     font-size: 15px;
+     max-width: 450px;
+   }
+
+   /**plant-photo-section **/
+
+   .plant-photo-section {
+     display: flex;
+     flex-direction: column;
+     max-width: 85%;
+   }
+
+   .photo-1 {
+     border-radius: 20px;
+     padding: 70px;
+     max-width: 450px;
+   }
+
+   .photo-1 h4 {
+     margin-bottom: 12px;
+   }
+
+   .photo-2 {
+     border-radius: 20px;
+     padding: 70px;
+     max-width: 460px;
+   }
+
+   .photo-2 h4 {
+     margin-bottom: 12px;
+   }
+
+   .photo-3 {
+     border-radius: 20px;
+     padding: 70px;
+     max-width: 460px;
+   }
+
+   .photo-3 h4 {
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 12px;
+   }
+
+
+
+   /** join section **/
+
+   .join-section {
+     padding: 120px;
+     padding-right: 120px;
+     max-width: 100%;
+   }
+
+   input.join-input {
+     padding: 10px 45px;
+     margin-left: 100px;
+     margin-right: 60px;
+     position: relative;
+   }
+
+   .join-title {
+     font-size: 20px;
+     font-weight: bold;
+   }
+
+   .subscribe-btn {
+     border-radius: 0px 15px 15px 0px;
+     position: absolute;
+     right: 22px;
+   }
+
+   /**footer section**/
+   section.section-footer {
+     max-width: 85%;
+     display: grid;
+     grid-template-columns: auto;
+     gap: 20px;
+   }
+
+   .logo-img-footer {
+     margin-bottom: 15px;
+   }
+
+   .section-footer p {
+     margin-bottom: 20px;
+   }
+
+   .section-footer div {
+     display: grid;
+     gap: 20px;
+   }
+
+
+
+   .footer-logo {
+     max-width: 216px;
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     gap: 30px;
+     text-align: center;
+     align-items: center;
+   }
+
+   #footer-text {
+     font-size: 22px;
+     color: #6d5f5f;
+   }
+
+   .section-footer a {
+     color: #6d5f5f;
+     margin-bottom: 15px;
+   }
+
+ }
