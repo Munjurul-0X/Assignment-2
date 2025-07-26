@@ -180,6 +180,7 @@
    cursor: default;
 
 
+
  }
 
  .plants-lover-section img {
@@ -209,6 +210,7 @@
    position: absolute;
    left: 340px;
    bottom: 460px;
+   display: block;
  }
 
  /* join section */
@@ -251,7 +253,7 @@
    justify-content: center;
    text-align: center;
    align-items: center;
-   background-image: url(/assets/news-letter-bg.png);
+   background-image: url(../assets/news-letter-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
    padding: 180px;
@@ -376,7 +378,7 @@
  }
 
  .photo-1 {
-   background-image: url(/assets/deal-ana.png);
+   background-image: url(../assets/deal-ana.png);
    background-repeat: no-repeat;
    background-size: cover;
    max-width: 367px;
@@ -387,7 +389,7 @@
  }
 
  .photo-2 {
-   background-image: url(/assets/deal-bloom.png);
+   background-image: url(../assets/deal-bloom.png);
    background-repeat: no-repeat;
    background-size: cover;
    max-width: 367px;
@@ -397,7 +399,7 @@
  }
 
  .photo-3 {
-   background-image: url(/assets/deal-zabo.png);
+   background-image: url(../assets/deal-zabo.png);
    background-repeat: no-repeat;
    background-size: cover;
    max-width: 753px;
@@ -512,6 +514,11 @@
      color: #7c7171;
    }
 
+
+   #badge-photo {
+     display: none;
+   }
+
    .plants-lover-text span {
      color: #6d5f5f;
    }
@@ -567,7 +574,6 @@
      font-weight: bold;
      margin-bottom: 12px;
    }
-
 
 
    /** join section **/
